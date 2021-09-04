@@ -1,0 +1,302 @@
+.bg {
+    -fx-background-color: #f8f8ff;
+}
+
+.bgpadding {
+    -fx-background-color: #f8f8ff;
+    -fx-padding: 20px;
+}
+
+.bg-warning {
+    -fx-background-color: #f8f8ff;
+    -fx-padding: 20px;
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+    -fx-border-color: #14213d;
+}
+
+/** Headers **/
+.h1 {
+    -fx-font-family: 'Dubai Medium', Arial, sans-serif;
+    -fx-font-size: 25px;
+    -fx-text-fill: #14213d;
+}
+.h2 {
+    -fx-font-family: 'Dubai Medium', Arial, sans-serif;
+    -fx-text-fill: #14213d;
+    -fx-font-size: 15px;
+    -fx-font-weight: bolder;
+}
+
+.h3 {
+    -fx-font-family: 'Dubai Medium', Arial, sans-serif;
+    -fx-text-fill: #14213d;
+    -fx-font-size: 15px;
+}
+
+.itemDesc {
+    -fx-font-family: 'Dubai Medium', Arial, sans-serif;
+    -fx-font-weight: bold;
+    -fx-text-fill: #14213d;
+    -fx-font-size: 15px;
+}
+
+
+/** Main menu **/
+.main-menu-buttons {
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+    -fx-border-radius: 3px;
+    -fx-border-color: #14213d;
+    -fx-text-fill: #14213d;
+    -fx-font-size: 15px;
+    -fx-padding: 5px 30px 5px 30px;
+    -fx-background-color: white;
+}
+
+.main-menu-buttons:hover {
+    -fx-background-color: #14213d;
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+    -fx-border-color: #14213d;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-padding: 5px 30px 5px 30px;
+}
+
+/** Side menu **/
+.side-menu-buttons-bg {
+    -fx-background-color: #14213d;
+    -fx-padding: 10px;
+}
+.side-menu-buttons {
+    -fx-font-family: 'Dubai Medium', Arial, sans-serif;
+    -fx-padding: 5px 5px 5px 5px;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+}
+
+.side-menu-buttons:hover {
+    -fx-padding: 5px 5px 5px 5px;
+    -fx-text-fill: #14213d;
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-font-size: 15px;
+}
+.side-menu-buttons-selected {
+    -fx-padding: 5px 5px 5px 5px;
+    -fx-text-fill: #14213d;
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-font-size: 15px;
+}
+
+.side-menu-extended {
+    -fx-background-color: #14213d;
+    -fx-background-radius: 0px 5px 5px 0px;
+    -fx-padding: 15px;
+}
+
+.new-sale {
+    -fx-graphic: url("new_sale_white.png");
+    -fx-font-family: 'Dubai Medium', Arial, sans-serif;
+    -fx-padding: 5px 5px 5px 5px;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+}
+
+.prev-sale {
+    -fx-graphic: url("prev_sale_white.png");
+}
+
+.inventory {
+    -fx-graphic: url("inv_white.png");
+}
+.new-cust {
+    -fx-graphic: url("new_cust_white.png");
+}
+.prev-cust {
+    -fx-graphic: url("prev_cust_white.png");
+}
+
+.new-sale:hover {
+    -fx-graphic: url("new_sale_blue.png");
+}
+.prev-sale:hover {
+    -fx-graphic: url("prev_sale_blue.png");
+}
+.inventory:hover {
+    -fx-graphic: url("inv_blue.png");
+}
+.new-cust:hover {
+    -fx-graphic: url("new_cust_blue.png");
+}
+.prev-cust:hover {
+    -fx-graphic: url("prev_cust_blue.png");
+}
+
+.new-sale-selected {
+    -fx-graphic: url("new_sale_blue.png");
+}
+.prev-sale-selected {
+    -fx-graphic: url("prev_sale_blue.png");
+}
+.inventory-selected {
+    -fx-graphic: url("inv_blue.png");
+}
+.new-cust-selected {
+    -fx-graphic: url("new_cust_blue.png");
+}
+.prev-cust-selected {
+    -fx-graphic: url("prev_cust_blue.png");
+}
+
+
+/** Table view **/
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color:  transparent; 
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #14213d;
+    -fx-background-radius: 3px 3px 0px 0px;
+    -fx-background-insets: 0 0px 0 0;
+    -fx-padding: 5px 0px 5px 0;
+}
+
+.table-view .column-header, .table-view .filler {
+   -fx-font-family: 'Dubai Medium', Arial, sans-serif;
+   -fx-font-size: 15px;
+}
+
+.table-view .column-header .label{
+   -fx-text-fill: white;
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+    -fx-font-family: 'Dubai Medium', Arial, sans-serif;
+   -fx-font-size: 15px;
+}
+
+.table-row-cell:empty {
+    -fx-background-color: transparent;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #8e97ab;
+    -fx-text-background-color: white;
+    -fx-text-fill: white;
+}
+
+.table-row-cell:odd{
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:even{
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+
+.table-row-cell:selected {
+   -fx-background-color: #ecf0f9; 
+   -fx-text-background-color:  #6622CC;
+}
+
+
+/** Buttons **/
+.add-remove-button {
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+    -fx-border-radius: 3px;
+    -fx-border-color: #14213d;
+    -fx-text-fill: #14213d;
+    -fx-font-size: 15px;
+    -fx-padding: 10px;
+    -fx-background-color: white;
+}
+
+.add-remove-button:hover {
+    -fx-background-color: #14213d;
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+    -fx-border-color: #14213d;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-padding: 10px;
+}
+
+.search-button {
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+    -fx-border-radius: 3px;
+    -fx-border-color: #14213d;
+    -fx-text-fill: #14213d;
+    -fx-font-size: 15px;
+    -fx-padding: 5px 30px 5px 30px;
+    -fx-background-color: white;
+}
+
+.search-button:hover {
+    -fx-background-color: #14213d;
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+    -fx-border-color: #14213d;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-padding: 5px 30px 5px 30px;
+}
+
+.totals {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 5px;
+    -fx-font-size: 20px;
+    -fx-padding: 18px 15px 15px 15px;
+    -fx-border-style: solid hidden hidden hidden;
+    -fx-border-width: 5px;
+    -fx-border-color: #14213d;
+    -fx-border-radius: 3px;
+}
+
+.add-items-bg {
+    -fx-background-color: #FFF;
+    -fx-background-radius: 10px;
+    -fx-padding: 10px;
+    -fx-border-style: solid hidden hidden hidden;
+    -fx-border-width: 5px;
+    -fx-border-color: #14213d;
+}
+
+/** Adding items page **/
+.itemTitle {
+    -fx-font-size: 15px;
+}
+.itemSku {
+    
+}
+
+/* scroll bar starts here */
+
+/* The increment and decrement button CSS class of scrollbar */
+.table-view .increment-button ,.table-view .decrement-button {
+    -fx-background-color:transparent;
+	-fx-background-radius: 2em;
+
+}
